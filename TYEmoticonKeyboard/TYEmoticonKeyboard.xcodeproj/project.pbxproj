@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED80DE931DD4B10B00D666A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DE921DD4B10B00D666A2 /* AppDelegate.swift */; };
+		ED80DE951DD4B10B00D666A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED80DE941DD4B10B00D666A2 /* ViewController.swift */; };
+		ED80DE9A1DD4B10B00D666A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED80DE991DD4B10B00D666A2 /* Assets.xcassets */; };
+		ED80DE9D1DD4B10B00D666A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED80DE9B1DD4B10B00D666A2 /* LaunchScreen.storyboard */; };
+		EDB600F71DE0A32F008E9D92 /* Emoticons.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EDB600D91DE0A32F008E9D92 /* Emoticons.bundle */; };
+		EDB600F81DE0A32F008E9D92 /* EmoticonTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600DA1DE0A32F008E9D92 /* EmoticonTools.swift */; };
+		EDB600F91DE0A32F008E9D92 /* NSAttributedString+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600DB1DE0A32F008E9D92 /* NSAttributedString+Extension.swift */; };
+		EDB600FA1DE0A32F008E9D92 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = EDB600DE1DE0A32F008E9D92 /* NSString+Emoji.m */; };
+		EDB600FB1DE0A32F008E9D92 /* Constraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E01DE0A32F008E9D92 /* Constraint.swift */; };
+		EDB600FC1DE0A32F008E9D92 /* ConstraintAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E11DE0A32F008E9D92 /* ConstraintAttributes.swift */; };
+		EDB600FD1DE0A32F008E9D92 /* ConstraintDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E21DE0A32F008E9D92 /* ConstraintDescription.swift */; };
+		EDB600FE1DE0A32F008E9D92 /* ConstraintItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E31DE0A32F008E9D92 /* ConstraintItem.swift */; };
+		EDB600FF1DE0A32F008E9D92 /* ConstraintMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E41DE0A32F008E9D92 /* ConstraintMaker.swift */; };
+		EDB601001DE0A32F008E9D92 /* ConstraintRelation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E51DE0A32F008E9D92 /* ConstraintRelation.swift */; };
+		EDB601011DE0A32F008E9D92 /* Debugging.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E61DE0A32F008E9D92 /* Debugging.swift */; };
+		EDB601021DE0A32F008E9D92 /* EdgeInsets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E71DE0A32F008E9D92 /* EdgeInsets.swift */; };
+		EDB601031DE0A32F008E9D92 /* LayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600E81DE0A32F008E9D92 /* LayoutConstraint.swift */; };
+		EDB601041DE0A32F008E9D92 /* SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600EA1DE0A32F008E9D92 /* SnapKit.swift */; };
+		EDB601051DE0A32F008E9D92 /* View+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600EB1DE0A32F008E9D92 /* View+SnapKit.swift */; };
+		EDB601061DE0A32F008E9D92 /* ViewController+SnapKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600EC1DE0A32F008E9D92 /* ViewController+SnapKit.swift */; };
+		EDB601071DE0A32F008E9D92 /* Emoticon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600EE1DE0A32F008E9D92 /* Emoticon.swift */; };
+		EDB601081DE0A32F008E9D92 /* TextAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600EF1DE0A32F008E9D92 /* TextAttachment.swift */; };
+		EDB601091DE0A32F008E9D92 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F11DE0A32F008E9D92 /* TextView.swift */; };
+		EDB6010A1DE0A32F008E9D92 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F21DE0A32F008E9D92 /* ToolBar.swift */; };
+		EDB6010B1DE0A32F008E9D92 /* EmoticonButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F31DE0A32F008E9D92 /* EmoticonButton.swift */; };
+		EDB6010C1DE0A32F008E9D92 /* EmoticonCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F41DE0A32F008E9D92 /* EmoticonCollectionViewCell.swift */; };
+		EDB6010D1DE0A32F008E9D92 /* EmoticonKeyBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F51DE0A32F008E9D92 /* EmoticonKeyBoard.swift */; };
+		EDB6010E1DE0A32F008E9D92 /* EmoticonToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDB600F61DE0A32F008E9D92 /* EmoticonToolBar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		ED80DE8F1DD4B10B00D666A2 /* TYEmoticonKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TYEmoticonKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED80DE921DD4B10B00D666A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ED80DE941DD4B10B00D666A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ED80DE991DD4B10B00D666A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ED80DE9C1DD4B10B00D666A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ED80DE9E1DD4B10B00D666A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDB600D71DE07BF2008E9D92 /* TYEmoticonKeyboard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TYEmoticonKeyboard-Bridging-Header.h"; sourceTree = "<group>"; };
+		EDB600D91DE0A32F008E9D92 /* Emoticons.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Emoticons.bundle; sourceTree = "<group>"; };
+		EDB600DA1DE0A32F008E9D92 /* EmoticonTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonTools.swift; sourceTree = "<group>"; };
+		EDB600DB1DE0A32F008E9D92 /* NSAttributedString+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+Extension.swift"; sourceTree = "<group>"; };
+		EDB600DD1DE0A32F008E9D92 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		EDB600DE1DE0A32F008E9D92 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+		EDB600E01DE0A32F008E9D92 /* Constraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constraint.swift; sourceTree = "<group>"; };
+		EDB600E11DE0A32F008E9D92 /* ConstraintAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintAttributes.swift; sourceTree = "<group>"; };
+		EDB600E21DE0A32F008E9D92 /* ConstraintDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintDescription.swift; sourceTree = "<group>"; };
+		EDB600E31DE0A32F008E9D92 /* ConstraintItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintItem.swift; sourceTree = "<group>"; };
+		EDB600E41DE0A32F008E9D92 /* ConstraintMaker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintMaker.swift; sourceTree = "<group>"; };
+		EDB600E51DE0A32F008E9D92 /* ConstraintRelation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstraintRelation.swift; sourceTree = "<group>"; };
+		EDB600E61DE0A32F008E9D92 /* Debugging.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Debugging.swift; sourceTree = "<group>"; };
+		EDB600E71DE0A32F008E9D92 /* EdgeInsets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EdgeInsets.swift; sourceTree = "<group>"; };
+		EDB600E81DE0A32F008E9D92 /* LayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LayoutConstraint.swift; sourceTree = "<group>"; };
+		EDB600E91DE0A32F008E9D92 /* SnapKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapKit.h; sourceTree = "<group>"; };
+		EDB600EA1DE0A32F008E9D92 /* SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SnapKit.swift; sourceTree = "<group>"; };
+		EDB600EB1DE0A32F008E9D92 /* View+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "View+SnapKit.swift"; sourceTree = "<group>"; };
+		EDB600EC1DE0A32F008E9D92 /* ViewController+SnapKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ViewController+SnapKit.swift"; sourceTree = "<group>"; };
+		EDB600EE1DE0A32F008E9D92 /* Emoticon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Emoticon.swift; sourceTree = "<group>"; };
+		EDB600EF1DE0A32F008E9D92 /* TextAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextAttachment.swift; sourceTree = "<group>"; };
+		EDB600F11DE0A32F008E9D92 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		EDB600F21DE0A32F008E9D92 /* ToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
+		EDB600F31DE0A32F008E9D92 /* EmoticonButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EmoticonButton.swift; path = ../View/EmoticonButton.swift; sourceTree = "<group>"; };
+		EDB600F41DE0A32F008E9D92 /* EmoticonCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonCollectionViewCell.swift; sourceTree = "<group>"; };
+		EDB600F51DE0A32F008E9D92 /* EmoticonKeyBoard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonKeyBoard.swift; sourceTree = "<group>"; };
+		EDB600F61DE0A32F008E9D92 /* EmoticonToolBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmoticonToolBar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED80DE8C1DD4B10B00D666A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED80DE861DD4B10B00D666A2 = {
+			isa = PBXGroup;
+			children = (
+				ED80DE911DD4B10B00D666A2 /* TYEmoticonKeyboard */,
+				ED80DE901DD4B10B00D666A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED80DE901DD4B10B00D666A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED80DE8F1DD4B10B00D666A2 /* TYEmoticonKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED80DE911DD4B10B00D666A2 /* TYEmoticonKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600D81DE0A32F008E9D92 /* Common */,
+				EDB600ED1DE0A32F008E9D92 /* Model */,
+				EDB600F01DE0A32F008E9D92 /* View */,
+				ED80DE921DD4B10B00D666A2 /* AppDelegate.swift */,
+				ED80DE941DD4B10B00D666A2 /* ViewController.swift */,
+				EDB600D71DE07BF2008E9D92 /* TYEmoticonKeyboard-Bridging-Header.h */,
+				ED80DE991DD4B10B00D666A2 /* Assets.xcassets */,
+				ED80DE9B1DD4B10B00D666A2 /* LaunchScreen.storyboard */,
+				ED80DE9E1DD4B10B00D666A2 /* Info.plist */,
+			);
+			path = TYEmoticonKeyboard;
+			sourceTree = "<group>";
+		};
+		EDB600D81DE0A32F008E9D92 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600D91DE0A32F008E9D92 /* Emoticons.bundle */,
+				EDB600DA1DE0A32F008E9D92 /* EmoticonTools.swift */,
+				EDB600DB1DE0A32F008E9D92 /* NSAttributedString+Extension.swift */,
+				EDB600DC1DE0A32F008E9D92 /* NSStringEmoji */,
+				EDB600DF1DE0A32F008E9D92 /* SnapKit修改版 */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		EDB600DC1DE0A32F008E9D92 /* NSStringEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600DD1DE0A32F008E9D92 /* NSString+Emoji.h */,
+				EDB600DE1DE0A32F008E9D92 /* NSString+Emoji.m */,
+			);
+			path = NSStringEmoji;
+			sourceTree = "<group>";
+		};
+		EDB600DF1DE0A32F008E9D92 /* SnapKit修改版 */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600E01DE0A32F008E9D92 /* Constraint.swift */,
+				EDB600E11DE0A32F008E9D92 /* ConstraintAttributes.swift */,
+				EDB600E21DE0A32F008E9D92 /* ConstraintDescription.swift */,
+				EDB600E31DE0A32F008E9D92 /* ConstraintItem.swift */,
+				EDB600E41DE0A32F008E9D92 /* ConstraintMaker.swift */,
+				EDB600E51DE0A32F008E9D92 /* ConstraintRelation.swift */,
+				EDB600E61DE0A32F008E9D92 /* Debugging.swift */,
+				EDB600E71DE0A32F008E9D92 /* EdgeInsets.swift */,
+				EDB600E81DE0A32F008E9D92 /* LayoutConstraint.swift */,
+				EDB600E91DE0A32F008E9D92 /* SnapKit.h */,
+				EDB600EA1DE0A32F008E9D92 /* SnapKit.swift */,
+				EDB600EB1DE0A32F008E9D92 /* View+SnapKit.swift */,
+				EDB600EC1DE0A32F008E9D92 /* ViewController+SnapKit.swift */,
+			);
+			path = "SnapKit修改版";
+			sourceTree = "<group>";
+		};
+		EDB600ED1DE0A32F008E9D92 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600EE1DE0A32F008E9D92 /* Emoticon.swift */,
+				EDB600EF1DE0A32F008E9D92 /* TextAttachment.swift */,
+				EDB600F31DE0A32F008E9D92 /* EmoticonButton.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EDB600F01DE0A32F008E9D92 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EDB600F11DE0A32F008E9D92 /* TextView.swift */,
+				EDB600F21DE0A32F008E9D92 /* ToolBar.swift */,
+				EDB600F41DE0A32F008E9D92 /* EmoticonCollectionViewCell.swift */,
+				EDB600F51DE0A32F008E9D92 /* EmoticonKeyBoard.swift */,
+				EDB600F61DE0A32F008E9D92 /* EmoticonToolBar.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED80DE8E1DD4B10B00D666A2 /* TYEmoticonKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED80DEA11DD4B10B00D666A2 /* Build configuration list for PBXNativeTarget "TYEmoticonKeyboard" */;
+			buildPhases = (
+				ED80DE8B1DD4B10B00D666A2 /* Sources */,
+				ED80DE8C1DD4B10B00D666A2 /* Frameworks */,
+				ED80DE8D1DD4B10B00D666A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TYEmoticonKeyboard;
+			productName = TYEmoticonKeyboard;
+			productReference = ED80DE8F1DD4B10B00D666A2 /* TYEmoticonKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED80DE871DD4B10B00D666A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = thomasTY;
+				TargetAttributes = {
+					ED80DE8E1DD4B10B00D666A2 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ED80DE8A1DD4B10B00D666A2 /* Build configuration list for PBXProject "TYEmoticonKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED80DE861DD4B10B00D666A2;
+			productRefGroup = ED80DE901DD4B10B00D666A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED80DE8E1DD4B10B00D666A2 /* TYEmoticonKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED80DE8D1DD4B10B00D666A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED80DE9D1DD4B10B00D666A2 /* LaunchScreen.storyboard in Resources */,
+				EDB600F71DE0A32F008E9D92 /* Emoticons.bundle in Resources */,
+				ED80DE9A1DD4B10B00D666A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED80DE8B1DD4B10B00D666A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDB6010E1DE0A32F008E9D92 /* EmoticonToolBar.swift in Sources */,
+				EDB6010D1DE0A32F008E9D92 /* EmoticonKeyBoard.swift in Sources */,
+				EDB601021DE0A32F008E9D92 /* EdgeInsets.swift in Sources */,
+				EDB600FB1DE0A32F008E9D92 /* Constraint.swift in Sources */,
+				EDB600FF1DE0A32F008E9D92 /* ConstraintMaker.swift in Sources */,
+				EDB601001DE0A32F008E9D92 /* ConstraintRelation.swift in Sources */,
+				EDB600FA1DE0A32F008E9D92 /* NSString+Emoji.m in Sources */,
+				EDB6010C1DE0A32F008E9D92 /* EmoticonCollectionViewCell.swift in Sources */,
+				EDB600FC1DE0A32F008E9D92 /* ConstraintAttributes.swift in Sources */,
+				EDB600F81DE0A32F008E9D92 /* EmoticonTools.swift in Sources */,
+				EDB601041DE0A32F008E9D92 /* SnapKit.swift in Sources */,
+				EDB6010A1DE0A32F008E9D92 /* ToolBar.swift in Sources */,
+				EDB600F91DE0A32F008E9D92 /* NSAttributedString+Extension.swift in Sources */,
+				ED80DE951DD4B10B00D666A2 /* ViewController.swift in Sources */,
+				EDB6010B1DE0A32F008E9D92 /* EmoticonButton.swift in Sources */,
+				EDB601091DE0A32F008E9D92 /* TextView.swift in Sources */,
+				ED80DE931DD4B10B00D666A2 /* AppDelegate.swift in Sources */,
+				EDB600FD1DE0A32F008E9D92 /* ConstraintDescription.swift in Sources */,
+				EDB601011DE0A32F008E9D92 /* Debugging.swift in Sources */,
+				EDB601071DE0A32F008E9D92 /* Emoticon.swift in Sources */,
+				EDB601051DE0A32F008E9D92 /* View+SnapKit.swift in Sources */,
+				EDB601031DE0A32F008E9D92 /* LayoutConstraint.swift in Sources */,
+				EDB600FE1DE0A32F008E9D92 /* ConstraintItem.swift in Sources */,
+				EDB601061DE0A32F008E9D92 /* ViewController+SnapKit.swift in Sources */,
+				EDB601081DE0A32F008E9D92 /* TextAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ED80DE9B1DD4B10B00D666A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED80DE9C1DD4B10B00D666A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED80DE9F1DD4B10B00D666A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ED80DEA01DD4B10B00D666A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED80DEA21DD4B10B00D666A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYEmoticonKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thomasTY.TYEmoticonKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TYEmoticonKeyboard/TYEmoticonKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		ED80DEA31DD4B10B00D666A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TYEmoticonKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.thomasTY.TYEmoticonKeyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TYEmoticonKeyboard/TYEmoticonKeyboard-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED80DE8A1DD4B10B00D666A2 /* Build configuration list for PBXProject "TYEmoticonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED80DE9F1DD4B10B00D666A2 /* Debug */,
+				ED80DEA01DD4B10B00D666A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED80DEA11DD4B10B00D666A2 /* Build configuration list for PBXNativeTarget "TYEmoticonKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED80DEA21DD4B10B00D666A2 /* Debug */,
+				ED80DEA31DD4B10B00D666A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED80DE871DD4B10B00D666A2 /* Project object */;
+}
